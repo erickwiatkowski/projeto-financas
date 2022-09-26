@@ -1,0 +1,35 @@
+nav{
+    width: 90%;
+	background:rgb(78, 18, 18);
+	color: rgb(236, 3, 3);
+    text-align: right;
+	padding: 45px;
+	
+}
+
+.topo-e{
+    font-size: 13px;
+    text-align: right;
+    float: left;
+	width: 39%;
+	background:white;
+	color:  red;
+}
+
+.topo-d{
+    font-size: 13px;
+    text-align: left;
+    float: left;
+	width:39%;
+	background:white;
+	color:  red;
+}
+
+.topo-m{
+    font-size: 13px;
+    text-align: center;
+    width: 20%;
+    float: left;
+    background: white;
+    color: red;
+}
