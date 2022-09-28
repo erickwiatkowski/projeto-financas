@@ -1,57 +1,16 @@
 let nome = prompt("insira seu nome!!!");
 let idade = parseInt(prompt("insira sua idade"));
-let desejaCalcular = confirm("deseja proseguir?");
-var investimento = parseFloat(prompt("insira o investimento"));
-var valorDeAcao = parseFloat(prompt("insira o valor de ação"));
 
+    let investimento = investimento;
+    let valorDeAcao = valorDeAcao;
+    let dividendosPagos = dividendosPagos;
+       function comfirmar(){
+        investimento = document.getElementsByName("investimento").value;
+        valorDeAcao = document.getElementsByName("valorDeAcao").value;
+        dividendosPagos = document.getElementsByName("dividendosPagos").value;
 
-if (desejaCalcular != true){
-    adeus();
-};
+    }
+document.write(investimento);
+document.write(investimento());
 
-let adeus = function(){
-    alert("Até a proxima");
-};
-
-if (desejaCalcular != false){
-    setTimeout(function(){
-
-    },1000);
-
-    let numeroDeAcoes = function(){
-        return investimento/valorDeAcao;
-    };
-document.write(numeroDeAcoes());
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-};
+console.log(investimento);
