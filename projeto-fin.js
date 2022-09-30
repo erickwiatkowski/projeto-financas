@@ -1,7 +1,13 @@
 let nome = prompt("insira seu nome!!!");
 let idade = parseInt(prompt("insira sua idade"));
+let confirmar = confirm("deseja continuar");
 
+if(confirmar != true){
+    alert("adeus");
+}
 
+if(comfirmar != false){
+  let confirme = function(){
     let investimento = 0;
     let valorDeAcao = 0;
     let dividendosPagos = 0;
@@ -12,7 +18,9 @@ let idade = parseInt(prompt("insira sua idade"));
 
     }
     document.querySelector('#comfirmar').onclick = comfirmar;
+    document.write(investimento);
+}
+}
 
-document.write(investimento);
 
 console.log(investimento);

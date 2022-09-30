@@ -5,9 +5,9 @@ https://www.figma.com/file/VWeaWMKshOHbjoftuUt1rd/Untitled?node-id=55%3A56
 
 Caixas de Diálogo
 
-- [ ] prompt
-- [ ] alert
-- [ ] confirm
+- [x] prompt
+- [x] alert
+- [x] confirm
 
 Temporizadores
 
@@ -17,7 +17,7 @@ Temporizadores
 Funções
 
 - [ ] Função anônima com argumento
-- [ ] Função anônima sem argumento
+- [x] Função anônima sem argumento
 - [ ] Função anônima com retorno
 - [ ] Função auto-executável
 - [ ] Função com nome
